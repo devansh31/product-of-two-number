@@ -1,0 +1,34 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+    double N1,N2, prod;
+    clrscr() ;
+    cout<< "Enter two numbers: ";
+
+    // Stores two floating point numbers in variable firstNumber and secondNumber respectively
+    cin>> N1 >> N2;
+ 
+    // Performs multiplication and stores the result in variable productOfTwoNumbers
+    prod = N1 * N2;  
+
+    cout<< "Product = " << prod;    
+    
+    getch();
+}
+
+
+
+***************************************************************
+#include<iostream.h>
+#include<conio.h>
+int main() 
+{    
+    clrscr() ;
+    cout << "Size of char: " << sizeof(char) << " bytes" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    getch() ;
+}
